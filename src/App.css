@@ -1,0 +1,86 @@
+* {
+  transition: all;
+  transition: 0.2s;
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  color: #fff;
+}
+.loginbg {
+  background-image: url('./assets/bg/bg.png');
+  border-radius: 20px;
+  position: absolute;
+  width: 310px;
+  height: 470px;
+  top: 158px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+h1 {
+  text-align: center;
+  
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+
+}
+input {
+  padding: 5px ;
+  width: 280px;
+  border-radius: 5px;
+}
+.enter {
+  background-color: #4770D8;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+}
+.subenter {
+  display: flex;
+  justify-content: center;
+  
+}
+.title {
+  position: absolute;
+  width: 268px;
+  height: 188px;
+  left: 21px;
+  top: 83px;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+
+  border-radius: 20px;
+}
+button {
+  background-color: #4770D8;
+  padding: 5px;
+}
+button:hover {
+  background-color: #799CF5;
+}
+.mapbutton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+}
